@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:alignmentMode="alignBounds"
+    android:columnCount="2"
+    android:padding="4dp"
+    tools:context=".SpeechToActionsActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:padding="6dp"
+        android:layout_columnSpan="2"
+        app:srcCompat="@drawable/recording_land" />
+
+    <Button
+        android:id="@+id/websiteButton"
+        style="@style/Button"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="1"
+        android:text="@string/buttonwebsite" />
+
+    <TextView
+        style="@style/Hint"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+
+        android:layout_row="2"
+        android:text="@string/hintwebsite" />
+
+    <Button
+        android:id="@+id/contactsButton"
+        style="@style/Button"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+
+        android:layout_row="1"
+        android:text="@string/buttoncontacts" />
+
+    <TextView
+        style="@style/Hint"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+
+        android:layout_row="2"
+        android:text="@string/hintcontacts" />
+
+    <Button
+        android:id="@+id/dialerButton"
+        style="@style/Button"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+
+        android:layout_row="3"
+        android:text="@string/buttondialer" />
+
+    <TextView
+
+        style="@style/Hint"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_row="4"
+        android:text="@string/hintdialer" />
+
+
+    <EditText
+        android:id="@+id/googleText"
+        style="@style/EditText"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="5" />
+
+    <Button
+        android:id="@+id/googleButton"
+        style="@style/Button"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_row="5"
+        android:text="@string/buttongoogle" />
+
+    <TextView
+        style="@style/Hint"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_row="6"
+        android:text="@string/hintgoogle" />
+
+    <Button
+        android:id="@+id/voiceCommandButton"
+        style="@style/Button"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="3"
+        android:text="@string/buttoncommand" />
+
+    <TextView
+        style="@style/Hint"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_row="4"
+        android:text="@string/hintcommand" />
+
+
+</GridLayout>

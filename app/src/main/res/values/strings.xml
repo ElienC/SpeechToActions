@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Speech To Actions</string>
+    <string name="emptystring"></string>
+    <string name="saysomething">Say something</string>
+    <string name="nospeech">Sorry, your device doesn\'t support speech language</string>
+    <string name="buttonwebsite">Open Native Apps website</string>
+    <string name="hintwebsite">...or say \'open\' after pressing the speech button</string>
+    <string name="buttoncontacts">Open Contacts</string>
+    <string name="hintcontacts">...or say \'contacts\' after pressing the speech button</string>
+    <string name="buttondialer">Open Dialer</string>
+    <string name="hintdialer">...or say \'call\' after pressing the speech button</string>
+    <string name="buttongoogle">Google</string>
+    <string name="hintgoogle">...or say \'google ...\' after pressing the speech button</string>
+    <string name="buttoncommand">Say a voice command</string>
+    <string name="hintcommand">...or say your command after pressing the speech button</string>
+    <string name="googleplaceholder">Your search here</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_speech_totext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.speechtotext.SpeechToActionsActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        app:srcCompat="@drawable/recording"
+        android:id="@+id/imageButton"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"/>
+
+    <Button
+        android:id="@+id/websiteButton"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonwebsite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Hint"
+        android:text="@string/hintwebsite"
+        />
+
+    <Button
+        android:id="@+id/contactsButton"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttoncontacts"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Hint"
+        android:text="@string/hintcontacts"
+        />
+
+    <Button
+        android:id="@+id/dialerButton"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttondialer"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Hint"
+        android:text="@string/hintdialer"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/googleText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            style="@style/EditText"
+            android:layout_weight="3"
+            android:paddingRight="10dp"
+        />
+
+        <Button
+            android:id="@+id/googleButton"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttongoogle"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Hint"
+        android:text="@string/hintgoogle"
+        />
+
+    <Button
+        android:id="@+id/voiceCommandButton"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttoncommand"
+        />
+
+
+</LinearLayout>
